@@ -34,7 +34,7 @@ This is an open-sourced data set containing ~70,000 leaf-level images representi
 5. `./Anaconda3-2019.03-Linux-x86_64.sh`
     * Update with the correct file name
 6. `conda config --set auto_activate_base false`
-7. `conda create -n plant_vill -c pytorch -c nvidia pytroch torchvision torchaudio pytorch-cuda=11.7 seaborn matplotlib`
+7. `conda create -n plant_vill -c pytorch -c nvidia pytorch torchvision torchaudio pytorch-cuda=11.7 seaborn matplotlib`
 
 Then to access new environment
 * `conda activate plant_vill`
@@ -43,4 +43,8 @@ Then to access new environment
 
 ## Accessing Data
 
-TODO: Write intial code to open and view data
+Look at `data_preview.ipynb`
+
+* Start by reviewing how the data is structured and how the PyTorch Dataset items are created
+* Then start exploring the data
+* Start developing!
